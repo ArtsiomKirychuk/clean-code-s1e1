@@ -5,26 +5,26 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.image-container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.image-container img {
   width: 100%;
 }
-.aaa .more-inf {
+.image-container .matrix-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .image-container {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
